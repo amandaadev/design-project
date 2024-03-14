@@ -8,7 +8,7 @@
 
 ### Projeto criado para praticar o desenvolvimento de interfaces web utilizando HTML e CSS, com foco em habilidades de design ao implementar um layout específico fornecido pelo site UI Design Daily.
 
-- Deploy: []()
+- Deploy: [Design Project](https://amandaadev.github.io/design-project/)
 
 ## Índice
 
