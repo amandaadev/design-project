@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 25px;
+  background-color: #e5e5e5;
+}
+
+.popular-collections {
+  padding: 62px 70px;
+  border-radius: 35px;
+  background-color: #eff0f1;
+
+  h1 {
+    font-size: 40px;
+    font-family: "Merriweather" sans-serif;
+    margin: 13px 10px;
+  }
+}
+
+.buttons-colections {
+  padding: 13px 10px 56px;
+
+  button {
+    border-radius: 6px;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+  }
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: baseline;
+  gap: 64px;
+  padding: 10px;
+
+  .card {
+    background-color: white;
+    border-radius: 29px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 20px 24px;
+  }
+
+  .thumb-list {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .infos {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+
+    h3 {
+      margin-right: 250px;
+      font-size: 22px;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .icon {
+      display: flex;
+      align-items: center;
+
+      p {
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+      }
+    }
+  }
+}
