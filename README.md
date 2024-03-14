@@ -2,13 +2,13 @@
 
 ## Projeto criado do zero extraído do site <a href=" https://www.uidesigndaily.com/"> UI Design Daily</a>
 
-### Layout original ✅
-
 ![Design Original](./assets/origin-design/design-original.png)
-
-### Projeto criado para praticar o desenvolvimento de interfaces web utilizando HTML e CSS, com foco em habilidades de design ao implementar um layout específico fornecido pelo site UI Design Daily.
+### Layout original 👆
 
 - Deploy: [Design Project](https://amandaadev.github.io/design-project/)
+
+
+### Projeto criado para praticar o desenvolvimento de interfaces web utilizando HTML e CSS, com foco em habilidades de design ao implementar um layout específico fornecido pelo site UI Design Daily.
 
 ## Índice
 
