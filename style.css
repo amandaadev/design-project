@@ -15,67 +15,127 @@ body {
   padding: 62px 70px;
   border-radius: 35px;
   background-color: #eff0f1;
+}
 
-  h1 {
-    font-size: 40px;
-    font-family: "Merriweather" sans-serif;
-    margin: 13px 10px;
-  }
+h1 {
+  font-size: 40px;
+  font-family: "Merriweather" sans-serif;
+  margin: 13px 10px;
 }
 
 .buttons-colections {
   padding: 13px 10px 56px;
+}
 
-  button {
-    border-radius: 6px;
-    background-color: white;
-    border: none;
-    padding: 10px;
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-  }
+button {
+  border-radius: 6px;
+  background-color: white;
+  border: none;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
 
 .image-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: baseline;
-  gap: 64px;
+  justify-content: center;
+  gap: 32px;
   padding: 10px;
+}
 
+.card {
+  background-color: white;
+  border-radius: 29px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 20px 24px;
+  width: calc(100% / 3 - 42px);
+  box-sizing: border-box;
+}
+
+.thumb-list {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-around;
+  gap: 6px;
+}
+
+.infos {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  justify-content: space-between;
+}
+
+.infos h3 {
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon p {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 1200px) {
   .card {
-    background-color: white;
-    border-radius: 29px;
-    overflow: hidden;
-    margin-bottom: 20px;
-    padding: 20px 24px;
+    width: calc(100% - 122px);
   }
 
   .thumb-list {
-    margin-top: 16px;
-    display: flex;
-    justify-content: space-around;
+    width: 100%;
   }
 
-  .infos {
+  .main-image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(100% - 65px);
+  }
+}
+
+@media (max-width: 480px) {
+  html,
+  body {
+    padding: 10px;
+  }
+
+  .popular-collections {
+    padding: 20px;
+  }
+
+  .buttons-colections {
+    padding: 10px 0;
     display: flex;
-    align-items: center;
-    margin-top: 24px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
 
-    h3 {
-      margin-right: 250px;
-      font-size: 22px;
-      font-family: "Poppins", sans-serif;
-    }
+  .buttons-colections button {
+    width: 100%;
+    margin: 5px 0;
+  }
 
-    .icon {
-      display: flex;
-      align-items: center;
+  .card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 
-      p {
-        font-size: 16px;
-        font-family: "Poppins", sans-serif;
-      }
-    }
+  .thumb-list img {
+    width: 73px;
+  }
+
+  .infos h3 {
+    font-size: 18px;
   }
 }
