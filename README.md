@@ -1,12 +1,13 @@
 # Project Design
 
 ## Projeto criado do zero inspirado no site <a href="https://www.uidesigndaily.com/"> UI Design Daily </a>
-  
+
 ### Projeto criado para praticar o desenvolvimento de interfaces web utilizando HTML e CSS, com foco em habilidades de design ao implementar um layout específico fornecido pelo site UI Design Daily.
 
 Deploy: [Design Project](https://amandaadev.github.io/design-project/)
 
 ### Layout original 👇
+
 ![Design Original](./assets/origin-design/design-original.png)
 
 ## Índice
@@ -18,7 +19,7 @@ Deploy: [Design Project](https://amandaadev.github.io/design-project/)
 
 ## 📝Sobre o projeto
 
-Este projeto foi desenvolvido por conta própria como parte de uma iniciativa pessoal para aprimorar habilidades em HTML e CSS. Foi inspirado pelo site UI Design Daily, que oferece uma variedade de designs para projetos de desenvolvimento web. Optei por este desafio em específico como uma oportunidade de praticar e aprofundar meu conhecimento nessas tecnologias.
+Este projeto foi desenvolvido de forma independente como parte de uma iniciativa pessoal para aprimorar minhas habilidades em HTML e CSS. Inspirado pelo site UI Design Daily, que oferece uma variedade de designs para projetos de desenvolvimento web, escolhi este desafio específico para praticar e aprofundar meu conhecimento nessas tecnologias. Além disso, o projeto foi melhorado para ser responsivo, proporcionando uma experiência de usuário aprimorada.
 
 ## 💻Layout
 
